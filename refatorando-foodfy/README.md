@@ -6,7 +6,7 @@
   Desafio Módulo 3 - Refatorando Foodfy
 </h3>
 
-<blockquote align="center">“Faça seu melhor, mas sempre com prazo de entrega!”</blockquote>
+<blockquote align="center">“Não é a linguagem de programação que define o programador, mas sim sua lógica.”</blockquote>
 
 <p align="center">
 
