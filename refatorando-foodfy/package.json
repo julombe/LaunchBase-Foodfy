@@ -1,0 +1,13 @@
+{
+  "name": "refatorando-foodfy",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">     <img alt=\"Launchbase\" src=\"https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png\" width=\"400px\" /> </h1>",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
