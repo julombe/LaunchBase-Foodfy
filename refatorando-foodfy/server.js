@@ -4,8 +4,11 @@ const nunjucks = require('nunjucks')
 
 const server = express()
 
+//CSS
+server.use(express.static('public'))
+
 //configure template engine
-server.set("vie engine", "html")
+server.set("view engine", "html")
 
 nunjucks.configure("views", {
     express: server
