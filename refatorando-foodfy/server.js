@@ -19,13 +19,13 @@ nunjucks.configure("views", {
 
 //creating routes
 server.get("/", function(req, res) {
-    return res.render("courses", { items: courses })
+    return res.render("home")
 })
 
 
-server.get("/about", function(req, res) {
+server.get("/recipes", function(req, res) {
     
-    return res.render("about", {about})
+    return res.render("recipes", {about})
 })
 
 
