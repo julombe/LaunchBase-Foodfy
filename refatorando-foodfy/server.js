@@ -12,7 +12,9 @@ server.use(express.static('public'))
 server.set("view engine", "njk")
 
 nunjucks.configure("views", {
-    express: server
+    express: server,
+    autoescape: false,
+    noCache: true
 })
 
 
@@ -25,8 +27,8 @@ server.get("/sobre", function(req, res) {
     return res.render("sobre")
 })
 
-server.get("/receitas", function(req, res) {
-    return res.render("receitas", {receitas})
+server.get("/recipes", function(req, res) {
+    return res.render("recipes",)
 })
 
 
