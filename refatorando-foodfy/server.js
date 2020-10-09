@@ -3,7 +3,7 @@ const express = require('express')
 const nunjucks = require('nunjucks')
 
 const server = express()
-const receitas = require("./data")
+const recipes = require("./data")
 
 //CSS
 server.use(express.static('public'))
